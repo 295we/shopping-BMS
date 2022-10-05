@@ -6,6 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 package-lock.json
 tests/**/coverage/
+/src/views/login/index.vue
 
 # Editor directories and files
 .idea

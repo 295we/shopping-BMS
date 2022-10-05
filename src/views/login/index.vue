@@ -58,9 +58,9 @@
         >登录</el-button
       >
 
-      <div class="tips" v-show="false">
+      <div class="tips" v-show="!loginForm.password">
         <span style="margin-right: 20px">username: admin</span>
-        <span> password: any</span>
+        <span> password: 111111</span>
       </div>
     </el-form>
   </div>
